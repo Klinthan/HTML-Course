@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<! -- This page show basic layout of HTML5 -- >
+<html>
+<head>
+  <title>Tag in HTML5</title>
+  <meta name="description" content="awesome blog by Klinthan">
+  <meta name="keywords" content="web design blog, web dev blog, Klinthan">
+
+<! -- use style function anddefine (#) to specify header and footer -- >
+  <style type="text/css">
+    #main-header{
+      text-align:center;
+      background-color:black;
+      color:white;
+      padding:10px;
+    }
+
+    #main-footer{
+      text-align: center;
+      font-size:18px;
+    }
+    h2{
+      color:orange;
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <header id="main-header">           <! -- indicate to define at style -- >
+    <h1>HTML5 TAG</h1>
+  </header>
+
+<! -- ----------------------------- Post one --------------------------------- >
+  <section>
+
+    <a href="images/htmltag.png">
+        <img src="images/htmltag.png" alt="My Sample Image" width="600">
+    </a>
+
+    <article class="post">
+      <h2>Choose the suitable HTML5 Tag</h2>
+      <small>Posted by Klinthan on May 12</small>
+      <p>
+
+        <h4>1. เนื้อหาจุดนี้เป็น NAVIGATION (เมนู) หลักหรือเปล่า? ถ้าใช่ ใช้ &lt;NAV&gt;</h4>
+        แท็ก&lt;nav&gt; ใช้ครอบเมนูต่าง ๆ ไม่ว่าจะเป็นเมนูของทั้งเว็บไซต์ หรือเมนูเฉพาะของหน้านั้น ๆ
+        หรือแม้แต่ลิงค์ที่กดแล้วเปิดเมนูขึ้นมาก็ได้เช่นกัน
+        <br></br>
+        ถ้าไม่ใช่ ดูข้อต่อไป
+        <br><br>
+
+        <h4>2. เนื้อหาจุดนี้ถ้าอยู่เดี่ยว ๆ จะมีความหมายของมันเองหรือเปล่า? ถ้าใช่ ใช้ &lt;ARTICLE&gt;</h4>
+        แท็ก &lt;article&gt; ใช้ครอบแต่ละบทความ, แต่ละโพสต์ในเว็บบอร์ด, แต่ละคอมเม้นท์ของบทความ,
+        widget ใน sidebar ซึ่งต้องมีแท็ก Heading (h1 – h6) อยู่ด้วยเสมอ
+        <br><br>
+        ถ้าไม่ใช่ ดูข้อต่อไป
+
+        <h4>3. เนื้อหาจุดนี้เกี่ยวข้องกับเนื้อหาหลักของหน้าหรือเปล่า ถ้าไม่ใช่ ใช้ &lt;ASIDE&gt;</h4>
+        แท็ก &lt;aside&gt; นี่หลายคนเข้าใจว่าหมายถึง sidebar ทุกเว็บ จริง ๆ ก็เกือบถูกแต่ไม่ถูก 100% ครับ
+        เพราะบางครั้งถ้าเนื้อหาใน Sidebar เป็นเนื้อหาที่ขยายความเนื้อหาหลักของหน้า
+        (เช่น เว็บไซต์ Wikipedia ที่ด้านขวาอธิบายเนื้อหาเพิ่มเติม) ก็ไม่สามารถใช้ &lt;aside&gt; ได้ครับ
+        แท็ก &lt;aside&gt; สามารถใช้ได้กับส่วนที่เป็น Sidebar, Comment, Quote, Glossary (คำศัพท์),
+        โฆษณา, Note ใต้บทความ ฯลฯ และส่วนต่าง ๆ ที่ไม่เกี่ยวกับเนื้อหาหลักของหน้านั้น
+      </br></br>
+        ถ้าไม่ใช่ ดูข้อต่อไป
+
+        <h4>4. เนื้อหาจุดนี้เป็นส่วนอ้างอิงของเนื้อหาหลักหรือเปล่า? ถ้าใช่ ใช้ &lt;FIGURE&gt;</h4>
+        แท็ก &lt;figure&gt; ใช้สำหรับส่วนที่เป็นรูป, กราฟฟิก, ตัวอย่างโค้ด และเนื้อหาที่ประกอบบทความทุกชนิด
+        ซึ่งถ้าเป็นสิ่งที่ต้องการคำอธิบาย สามารถใช้แท็ก &lt;figcaption&gt; ใส่คำอธิบายได้
+        <br><br>
+        ถ้าไม่ใช่ ดูข้อต่อไป
+      </br></br>
+
+        <h4>5. เนื้อหาจุดนี้สามารถใส่หัวข้อได้มั้ย? ถ้าใช่ ใช้ &lt;SECTION&gt;</h4>
+        แท็ก &lt;section&gt; ใช้สำหรับส่วนที่ควรมีหัวข้อ แต่เป็น &lt;article&gt; ไม่ได้แล้ว เช่น หน้าเว็บเป็นนิทาน 5 บท
+        เราก็ครอบนิทานทั้งเรื่องด้วย &lt;article&gt; และครอบแต่ละบทด้วย &lt;section&gt; อย่าลืมว่า &lt;section&gt;
+        และ &lt;article&gt; ต้องมีแท็ก Heading (h1 – h6) ของตัวเองเสมอ
+      </br></br>
+        ถ้าไม่ใช่ ดูข้อต่อไป
+        <br><br>
+        
+        <h4>6. ข้อสุดท้าย เนื้อหาจุดนี้ต้องการความหมายหรือเปล่า? ถ้าใช่ ใช้แท็กที่เหมาะสม</h4>
+        ข้อนี้หมายถึงพวกย่อหน้าที่ควรใช้ &lt;p&gt; ครอบ, &lt;address&gt; สำหรับข้อมูลติดต่อ, &lt;blockquote&gt;
+        สำหรับคำพูดคนอื่นที่อ้างอิงมา,&lt;pre&gt; สำหรับครอบโค้ด
+        <br><br>
+        การครอบด้วยแท็กที่มีความหมาย จะทำให้ Search Engine เข้าใจบทความเราได้ง่ายขึ้น ซึ่งเป็นผลดีต่อ SEO
+        และยังทำให้เครื่องอ่านเว็บสำหรับผู้มีปัญหาทางสายตา (Screen Reader) ทำงานถูกต้องขึ้นอีกด้วย
+      </br></br>
+        ถ้าไม่ใช่ข้อนี้ ก็หมายความว่าเนื้อหาจุดนี้ไม่ได้ต้องการความหมายอะไร อาจจะเป็นแท็กที่ใส่ไว้เพื่อให้เราเขียน CSS ง่ายขึ้นเฉย ๆ
+        ซึ่งแปลว่าเราสามารถใช้แท็ก &lt;div&gt; ตรงนี้ได้เลย
+
+      </p>
+      <a href="https://www.designil.com/which-html5-tag-to-use.html">Read More (ref.)</a>
+      <hr>
+      <! ------------------------- End post one ------------------------------ >
+
+      <h2>Conclusion</h2>
+      <small>Posted by Klinthan on May 12</small>
+      <p>
+        <br>
+          จาก 6 ข้อด้านบนอาจจะสังเกตเห็นกันว่าวิธีคิดหลัก ๆ  คือ ถ้าเนื้อหาจุดนี้มีความหมาย ก็ใช้ Tag HTML5
+          ให้ตรงกับความหมายของมัน แต่ถ้าไม่มีก็ใช้ &lt;div&gt; แทน
+        </br>
+        <br>
+          การใช้แท็ก HTML5 ที่ถูกต้องมันจะไปเชื่อมโยงกับมาตรฐานที่เรียกว่า Accessibility (การเข้าถึงได้ง่าย)
+          ซึ่งเป็นมาตรฐานในการทำเว็บไซต์ที่ทำให้คนทุกชนชั้น ไม่ว่าจะใช้เครื่องมือไหนอ่าน ก็สามารถอ่านเนื้อหาเข้าใจได้ครับ
+        </br>
+
+      <a href="https://www.designil.com/which-html5-tag-to-use.html">Read More (ref.)</a>
+      <hr>
+
+    </article>
+  </section>
+
+  <aside>
+    <h3>Categories</h3>
+    <nav>
+      <ul>
+        <li><a href="#">Categories 1</a></li>
+        <li><a href="#">Categories 2</a></li>
+        <li><a href="#">Categories 3</a></li>
+      </ul>
+    </nav>
+
+    <footer id="main-footer">
+      <p>Copyright &copy; 2019, My Website</p>
+</footer>
+
+</body>
+</html>
